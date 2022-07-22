@@ -1,0 +1,170 @@
+
+
+*{
+  box-sizing: border-box;
+  list-style: none;
+  color: #555A88;
+  text-decoration: none;
+
+}
+
+.App{
+  margin: 20px;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+.list{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0;
+}
+
+.list-element{
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+h3{
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  font-size: 30px;
+}
+
+h1{
+  padding: 0;
+  display: inline-block;
+  font-size: 30px;
+}
+
+.user-container{
+  text-align: left;
+  margin: 10px 50px; 
+}
+
+.modal-contenido{
+  background-color:#fff;
+  width:400px;
+  height: 600px;
+  padding: 10px 20px;
+  margin: 20% auto;
+  position: relative;
+  bottom: 100px;  
+}
+.modal{
+  background-color: rgba(0,0,0,.8);
+  position:fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  opacity:0;
+  pointer-events:none;
+  transition: all 0.5s;
+}
+#miModal:target{
+  opacity:1;
+  pointer-events:auto;
+}
+
+.add{
+  position: absolute;
+  right: 20px;
+  top: 30px;
+  background: #555A88;
+  width: 200px;
+  height: 50px;
+  color: #fff;
+}
+
+.add-text{
+  color: #fff;
+ position: absolute;
+ top: 10px;
+ left: 40px;
+ font-size: 20px;
+}
+
+.form__group {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 50%;
+}
+
+.form__field {
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #9b9b9b;
+  outline: 0;
+  font-size: 1.3rem;
+  color: black;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
+.form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #9b9b9b;
+}
+
+.buttons{
+  margin-top: 30px;
+}
+
+.button-submit{
+  position: absolute;
+  width: 250px;
+  height: 30px;
+  background: #555A88;
+  color: #fff;
+  font-size: 15px;
+  bottom: 20px;
+}
+
+.button-clear{
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  background: #555A88;
+  color: #fff;
+  font-size: 15px;
+  bottom: 20px;
+  right: 20px;
+}
+
+.close-form{
+  font-size: 30px;
+  position: absolute;
+  right: 20px;
+  top: 30px;
+}
+
+.button-list{
+  border: none;
+  margin: 20px;
+  font-size: 25px;
+  background: #fff;
+  color: red;
+}
+
+.button-icon{
+  background: #fff;
+}
+
+.trash{
+  background: #fff;
+  color: red;
+}
+
+  
